@@ -3,7 +3,7 @@ import requests
 import os
 
 def telegram_bot_sendtext(message):
-    '''Sends a message to Telegram Bot'''
+    '''It is used to send a message in Telegram Bot'''
 
     bot_token = os.environ.get('TELEGRAM_BOT_TOKEN')
     bot_chatID = os.environ.get('TELEGRAM_CHAT_ID')
